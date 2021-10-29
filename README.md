@@ -39,6 +39,7 @@ Comanda remove_server
 		* Se elibereaza memoria corespunzatoare noii valori si chei dupa ce obiectul
 		  a fost mutat pe serverul nou
 Comanda retrieve
+
 	-Modularizare:
 		* Functie pentru returnarea unei valori corespunzatoare cheii
 		* Functie pentru obtinerea valorii dintr-un anumit server in functie de cheie
