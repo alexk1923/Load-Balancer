@@ -48,13 +48,14 @@ Comanda retrieve
 		  hash-uri din vectorul de label-uri si se atunci cand se gaseste un label
 		  cu hash mai mare decat cel al cheii, se determina serverul in care se va
 		  cauta valoarea
-`		* Se acceseaza serverul si se cauta valoarea respectiva in bucket-urile
+		* Se acceseaza serverul si se cauta valoarea respectiva in bucket-urile
 		  hashtable-ului
 		* Daca a fost parcurs tot hashtable-ul, atunci inseamna ca acea cheie e
 		  stocata pe serverul corespunzator primului label
 		* Stocarea id-ului serverului in variabila server_id, urmand a fi intors
 		  dupa apel prin intermediul acestei variabile
 Comanda store
+
 	-Modularizare:
 		* Functie pentru accesarea serverului
 		* Functie pentru adaugarea obiectului pe serverul corespunzator
